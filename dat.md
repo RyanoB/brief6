@@ -5,9 +5,13 @@
 Déployer l’application de vote avec une base de donnée redis, un stockage persistant pour la base de donnée.
 Cette dernière doit être disponible via notre zone DNS en passant par une Application Gateway.
 
+## Solution 
+
+Utilisation d’Ingress de Kubernetes, obtention d’un nom de domaine via Gandi.
+
 ## Topologie
 
-# Part 1
+### Part 1
 
 ```mermaid
 flowchart LR
@@ -22,7 +26,7 @@ flowchart LR
     end
 ```
 
-# Part 2
+### Part 2
 
 ```mermaid
 flowchart LR
